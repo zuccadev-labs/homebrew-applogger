@@ -1,16 +1,16 @@
 class ApploggerCli < Formula
   desc "AppLogger telemetry CLI"
   homepage "https://github.com/zuccadev-labs/appLoggers"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zuccadev-labs/appLoggers/releases/download/applogger-cli-v0.1.1/applogger-cli-darwin-arm64"
-      sha256 "343f32b75a189803c22658f8cfbe23b023102013a1f940e71fa3475de7cee6c6"
+      url "https://github.com/zuccadev-labs/appLoggers/releases/download/applogger-cli-v0.1.2/applogger-cli-darwin-arm64"
+      sha256 "18e78c3b0a4c12f40f80354948067658d5f721a7df13a9654460a57812b3ccd0"
     else
-      url "https://github.com/zuccadev-labs/appLoggers/releases/download/applogger-cli-v0.1.1/applogger-cli-darwin-amd64"
-      sha256 "f2959ea6549404bcb5f0e24c040e3b474fc05ec89fb8188f4011306be22d2f80"
+      url "https://github.com/zuccadev-labs/appLoggers/releases/download/applogger-cli-v0.1.2/applogger-cli-darwin-amd64"
+      sha256 "4a0b046d506a57e5f757e0242e55ed74d5c6f48f87846a2853aae740450d0e06"
     end
   end
 
